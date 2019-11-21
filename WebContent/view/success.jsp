@@ -11,7 +11,7 @@
 <body>
 
 	<%
-		User user = (User) request.getAttribute("user");
+		User user = (User) session.getAttribute("user");
 	%>
 
 	<h1>Login successful</h1>
